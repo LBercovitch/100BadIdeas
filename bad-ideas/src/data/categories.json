@@ -1,0 +1,46 @@
+{
+  "categories": {
+    "0": {
+      "id": "0",
+      "name": "Games",
+      "description": "Games",
+      "color": "rose",
+      "icon": "controller"
+    },
+    "1": {
+      "id": "1",
+      "name": "Tools",
+      "description": "Tools and utilities",
+      "color": "pink",
+      "icon": "wrench"
+    },
+    "2": {
+      "id": "2",
+      "name": "Art",
+      "description": "Art, design, and illustrations",
+      "color": "fuchsia",
+      "icon": "palette"
+    },
+    "3": {
+      "id": "3",
+      "name": "Maps",
+      "description": "Maps, GIS tools, and mapping applications",
+      "color": "indigo",
+      "icon": "globe"
+    },
+    "4": {
+      "id": "4",
+      "name": "Science",
+      "description": "Science and nature",
+      "color": "blue",
+      "icon": "beaker"
+    },
+    "5": {
+      "id": "5",
+      "name": "Worldbuilding",
+      "description": "Creative writing, characters, and worldbuilding",
+      "color": "cyan",
+      "icon": "planet"
+    }
+  }
+}

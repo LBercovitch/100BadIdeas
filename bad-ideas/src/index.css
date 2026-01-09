@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Audiowide:wght@400;700;900&family=Aldrich&family=Electrolize&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-audiowide: "Audiowide", sans-serif;
+  --font-electrolize: "Electrolize", sans-serif;
+  --font-aldrich: "Aldrich", sans-serif;
+
+  --color-neon-blue: #06b6d4;
+  --color-neon-pink: #ec4899;
+  --color-medium-navy: #011052;
+  --color-dark-navy: #00002d;
+  --color-darkest-purple: #060010;
+  --color-black: #000000;
+  --color-light-pink: #ffc4ee;
+  --color-light-orange: #ffce80;
+  --color-light-yellow: #fff6a8;
+  --color-light-green: #b0ff3b;
+  --color-light-blue: #bbeeff;
+  --color-light-purple: #c891ff;
+
+  --text-shadow-blue-h1:
+    0 0 10px #ffffff,
+    0 0 30px #06ccee,
+    0 0 40px #06b6d4,
+    0 0 90px #077285
+  ;
+
+  --text-shadow-pink-h1:
+    0 0 5px #ffffff,
+    0 0 30px #ffc4ee,
+    0 0 40px #ec4899,
+    0 0 90px #9e2f66
+  ;
+}
+
+html {
+  @apply min-h-full bg-linear-180 from-dark-navy from-[100px] via-medium-navy via-[300px] to-darkest-purple to-[900px] font-aldrich;
+}

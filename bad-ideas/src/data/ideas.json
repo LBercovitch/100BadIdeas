@@ -1,0 +1,705 @@
+{
+  "ideas": [
+    {
+      "id": 0,
+      "category": "0",
+      "name": "Tic Tac No!",
+      "description": "A tic tac toe game you will never win.",
+      "link": "",
+      "thumbnail": ""
+    }, {
+      "id": 1,
+      "category": "2",
+      "name": "Meow Mixer",
+      "description": "A random cat generator. Note: All cats are drawn by a hand, without the use of AI.",
+      "link": "",
+      "thumbnail": ""
+    }, {
+      "id": 2,
+      "category": "5",
+      "name": "Shadow on the Wire",
+      "description": "Perched high above the city, a pigeon sees the truths humans hide in the shadows below. Read the short story here.",
+      "link": "",
+      "thumbnail": ""
+    }, {
+      "id": 3,
+      "category": "3",
+      "name": "Contour Creator",
+      "description": "Generate contour lines based on a set of elevation points.",
+      "link": "",
+      "thumbnail": ""
+    }, {
+      "id": 4,
+      "category": "1",
+      "name": "PixelPad",
+      "description": "A simple web based drawing tool.",
+      "link": "",
+      "thumbnail": ""
+    }, {
+      "id": 5,
+      "category": "4",
+      "name": "Cosmic Clock",
+      "description": "Enter your birthday to see how old you are on different planets.",
+      "link": "",
+      "thumbnail": ""
+    }, {
+      "id": 6,
+      "category": "2",
+      "name": "Shadow on the Wire (book cover)",
+      "description": "A book cover for 'Shadow on the Wire'.",
+      "link": "",
+      "thumbnail": ""
+    }, {
+      "id": 7,
+      "category": "1",
+      "name": "Hue Harvester",
+      "description": "A color picker that lets you explore over 16 million colors and instantly view their digital values in RGB, HEX, CMYK, or HSV.",
+      "link": "",
+      "thumbnail": ""
+    }, {
+      "id": 8,
+      "category": "2",
+      "name": "Creative Colours",
+      "description": "20 new names for a collection of randomly selected colours.",
+      "link": "",
+      "thumbnail": ""
+    }, {
+      "id": 9,
+      "category": "5",
+      "name": "The Cephalopod Sleuth",
+      "description": "A website for a fictional octopus detective, agent 008.",
+      "link": "",
+      "thumbnail": ""
+    }, {
+      "id": 10,
+      "category": "3",
+      "name": "Layer Illustrator",
+      "description": "Craw your own map layer and export the result.",
+      "link": "",
+      "thumbnail": ""
+    }, {
+      "id": 11,
+      "category": "2",
+      "name": "LoopLab",
+      "description": "Use this app to design a custom friendship bracelet.",
+      "link": "",
+      "thumbnail": ""
+    }, {
+      "id": 12,
+      "category": "0",
+      "name": "Lexiconicube",
+      "description": "A clone of a classic word game. How many words can you find in three minutes?",
+      "link": "",
+      "thumbnail": ""
+    }, {
+      "id": 13,
+      "category": "2",
+      "name": "Clicker Chronicle",
+      "description": "A story told in a series of interactive illustrations.",
+      "link": "",
+      "thumbnail": ""
+    }, {
+      "id": 14,
+      "category": "0",
+      "name": "Logic Lines",
+      "description": "A random nonogram generator and tester tool.",
+      "link": "",
+      "thumbnail": ""
+    }, {
+      "id": 15,
+      "category": "4",
+      "name": "Noodlepedia",
+      "description": "An encyclopedia of noodles and pasta from arround the world.",
+      "link": "",
+      "thumbnail": ""
+    }, {
+      "id": 16,
+      "category": "2",
+      "name": "Plank Painting",
+      "description": "An acrylic painting on wood.",
+      "link": "",
+      "thumbnail": ""
+    }, {
+      "id": 17,
+      "category": "2",
+      "name": "Ornamental Art",
+      "description": "A set of painted ornaments. Perfect for the holidays.",
+      "link": "",
+      "thumbnail": ""
+    }, {
+      "id": 18,
+      "category": "2",
+      "name": "Colour Conjurer",
+      "description": "Generate a random colour and matching palettes using complementary, triadic, analogous, split-complementary, and monochromatic colour sets.",
+      "link": "",
+      "thumbnail": ""
+    }, {
+      "id": 19,
+      "category": "5",
+      "name": "The Slithering Safecracker",
+      "description": "A website for a fictional lock picking snake.",
+      "link": "",
+      "thumbnail": ""
+    }, {
+      "id": 20,
+      "category": "4",
+      "name": "Phase Finder",
+      "description": "Find out what the moon will look like at a specified date and latitude.",
+      "link": "",
+      "thumbnail": ""
+    }, {
+      "id": 21,
+      "category": "2",
+      "name": "Sham Shirt",
+      "description": "A design for a fake t-shirt.",
+      "link": "",
+      "thumbnail": ""
+    }, {
+      "id": 22,
+      "category": "2",
+      "name": "Vector Logo",
+      "description": "A fake logo for an imaginary company, created as a scalable vector graphic.",
+      "link": "",
+      "thumbnail": ""
+    }, {
+      "id": 23,
+      "category": "2",
+      "name": "Turtle Tracer",
+      "description": "A fake logo created using turtle graphics.",
+      "link": "",
+      "thumbnail": ""
+    }, {
+      "id": 24,
+      "category": "0",
+      "name": "Sock Seeker",
+      "description": "A hidden objects game to help you find your lost socks.",
+      "link": "",
+      "thumbnail": ""
+    }, {
+      "id": 25,
+      "category": "0",
+      "name": "Alphabet Explorer",
+      "description": "Create and solve custom word search puzzles of any size.",
+      "link": "",
+      "thumbnail": ""
+    }, {
+      "id": 26,
+      "category": "0",
+      "name": "Country Clicker",
+      "description": "Test your globe-smarts! Pick the correct country on the map and ace the quiz that follows.",
+      "link": "",
+      "thumbnail": ""
+    }, {
+      "id": 27,
+      "category": "4",
+      "name": "Explosive Experiments",
+      "description": "Derive new solutions in this chemistry simulator game.",
+      "link": "",
+      "thumbnail": ""
+    }, {
+      "id": 28,
+      "category": "2",
+      "name": "Wireframer",
+      "description": "A fake website created by cloning a design generated by a figma.",
+      "link": "",
+      "thumbnail": ""
+    }, {
+      "id": 29,
+      "category": "2",
+      "name": "CSS Cheat Sheet",
+      "description": "A cheat sheet with some cool css tricks.",
+      "link": "",
+      "thumbnail": ""
+    }, {
+      "id": 30,
+      "category": "0",
+      "name": "Mystery Mosaic",
+      "description": "Can your knowledge unlock the picture? Solve questions to reveal the mystery image piece by piece.",
+      "link": "",
+      "thumbnail": ""
+    }, {
+      "id": 31,
+      "category": "0",
+      "name": "Aerial Ace",
+      "description": "Find where in the world aerial images were taken. Closer guesses will earn more points.",
+      "link": "",
+      "thumbnail": ""
+    }, {
+      "id": 32,
+      "category": "1",
+      "name": "Typesetter",
+      "description": "A lightweight web-based text editor.",
+      "link": "",
+      "thumbnail": ""
+    }, {
+      "id": 33,
+      "category": "2",
+      "name": "Strawberry Zorp",
+      "description": "An design for an imaginary drink.",
+      "link": "",
+      "thumbnail": ""
+    }, {
+      "id": 34,
+      "category": "2",
+      "name": "Water Art",
+      "description": "A water colour painting, created by a complete beginner.",
+      "link": "",
+      "thumbnail": ""
+    }, {
+      "id": 35,
+      "category": "0",
+      "name": "Set Logic",
+      "description": "A quiz game based on set theory or logic problems.",
+      "link": "",
+      "thumbnail": ""
+    }, {
+      "id": 36,
+      "category": "0",
+      "name": "Wire Switcher",
+      "description": "In this puzzle game, use switches and wires to turn on the correct light bulbs.",
+      "link": "",
+      "thumbnail": ""
+    }, {
+      "id": 37,
+      "category": "0",
+      "name": "Quizzler",
+      "description": "Use this app to create custom quizes. Great as a study aid.",
+      "link": "",
+      "thumbnail": ""
+    }, {
+      "id": 38,
+      "category": "3",
+      "name": "Projections",
+      "description": "See how different map projections manipulate the shape of the earth.",
+      "link": "",
+      "thumbnail": ""
+    }, {
+      "id": 39,
+      "category": "0",
+      "name": "Feylinia",
+      "description": "Feylinia is a genus of legless lizard, an appropriate name for this clone of a classic computer game.",
+      "link": "",
+      "thumbnail": ""
+    }, {
+      "id": 40,
+      "category": "2",
+      "name": "His Name is Zed",
+      "description": "An illustrated gif of a running zebra.",
+      "link": "",
+      "thumbnail": ""
+    }, {
+      "id": 41,
+      "category": "5",
+      "name": "Anatamy of the Zorlons",
+      "description": "An anatamy diagram of an imaginary alien species.",
+      "link": "",
+      "thumbnail": ""
+    }, {
+      "id": 42,
+      "category": "4",
+      "name": "Topiary Timeslider",
+      "description": "A time slider that show how a tree changes over time.",
+      "link": "",
+      "thumbnail": ""
+    }, {
+      "id": 43,
+      "category": "2",
+      "name": "Alphatron",
+      "description": "A new, futuristic typeface. Download this font to use with your own documents.",
+      "link": "",
+      "thumbnail": ""
+    }, {
+      "id": 44,
+      "category": "5",
+      "name": "Zorlonia",
+      "description": "Learn more about this imaginary alien planet.",
+      "link": "",
+      "thumbnail": ""
+    }, {
+      "id": 45,
+      "category": "3",
+      "name": "Pathfinder",
+      "description": "Find the shortest path for planning your next multi-city vacation.",
+      "link": "",
+      "thumbnail": ""
+    }, {
+      "id": 46,
+      "category": "2",
+      "name": "Catnip Critter",
+      "description": "A cat toy I made for my cat.",
+      "link": "",
+      "thumbnail": ""
+    }, {
+      "id": 47,
+      "category": "2",
+      "name": "Colouring Collection",
+      "description": "A set of fun and imaginitive colouring pages.",
+      "link": "",
+      "thumbnail": ""
+    }, {
+      "id": 48,
+      "category": "0",
+      "name": "Maze Master",
+      "description": "An automated maze solver. Create a custom maze and watch as the computer solves it.",
+      "link": "",
+      "thumbnail": ""
+    }, {
+      "id": 49,
+      "category": "1",
+      "name": "Dice Roller",
+      "description": "Missing your dice? Use this app instead. Choose the size and appearance of each die and roll for a random number.",
+      "link": "",
+      "thumbnail": ""
+    }, {
+      "id": 50,
+      "category": "4",
+      "name": "Solar Sailor",
+      "description": "Explore a true scale model of the solar system to understand how far things really are.",
+      "link": "",
+      "thumbnail": ""
+    }, {
+      "id": 51,
+      "category": "2",
+      "name": "Pizza Maker",
+      "description": "Create a pizza! Choose your sauce, cheese, and toppings.",
+      "link": "",
+      "thumbnail": ""
+    }, {
+      "id": 52,
+      "category": "0",
+      "name": "Triplicity",
+      "description": "Match three identical objects in a row to earn points.",
+      "link": "",
+      "thumbnail": ""
+    }, {
+      "id": 53,
+      "category": "5",
+      "name": "The True Northern Realm",
+      "description": "Uncover the secrets of a fantastical, alternate-world Canada with this interactive map.",
+      "link": "",
+      "thumbnail": ""
+    }, {
+      "id": 54,
+      "category": "5",
+      "name": "Library Lister",
+      "description": "Use this form to catalog the books in your library.",
+      "link": "",
+      "thumbnail": ""
+    }, {
+      "id": 55,
+      "category": "4",
+      "name": "EvoSim",
+      "description": "A simple evolution simulator.",
+      "link": "",
+      "thumbnail": ""
+    }, {
+      "id": 56,
+      "category": "0",
+      "name": "Crossword Maker",
+      "description": "Enter your own custom words and clues; this app will do the rest to generate a crossword puzzle.",
+      "link": "",
+      "thumbnail": ""
+    }, {
+      "id": 57,
+      "category": "5",
+      "name": "Xenozorlon",
+      "description": "An imaginary pet from the fictional planet Zorlonia.",
+      "link": "",
+      "thumbnail": ""
+    }, {
+      "id": 58,
+      "category": "1",
+      "name": "Number Ninja",
+      "description": "A web based calculator app for all your mathematical needs.",
+      "link": "",
+      "thumbnail": ""
+    }, {
+      "id": 59,
+      "category": "2",
+      "name": "Spuriousity",
+      "description": "A fake e-commerce store for the fake products on this page.",
+      "link": "",
+      "thumbnail": ""
+    }, {
+      "id": 60,
+      "category": "1",
+      "name": "Sort-O-Matic",
+      "description": "A sorting algorithm demonstrator.",
+      "link": "",
+      "thumbnail": ""
+    }, {
+      "id": 61,
+      "category": "2",
+      "name": "Tile Plotter",
+      "description": "Create 2D tile designs for a certain building block toy.",
+      "link": "",
+      "thumbnail": ""
+    }, {
+      "id": 62,
+      "category": "3",
+      "name": "Submerged",
+      "description": "Visualize how the world changes with more or less water in the oceans.",
+      "link": "",
+      "thumbnail": ""
+    }, {
+      "id": 63,
+      "category": "3",
+      "name": "Basemap",
+      "description": "A new basemap to use with your mapping applications.",
+      "link": "",
+      "thumbnail": ""
+    }, {
+      "id": 64,
+      "category": "3",
+      "name": "Treasure Hunter",
+      "description": "Reveal the clues on this interactive map to find the treasure.",
+      "link": "",
+      "thumbnail": ""
+    }, {
+      "id": 65,
+      "category": "0",
+      "name": "Country Clues",
+      "description": "Guess a country based on the clues provided.",
+      "link": "",
+      "thumbnail": ""
+    }, {
+      "id": 66,
+      "category": "4",
+      "name": "Ili Pika",
+      "description": "Learn about the Ili Pika, a fluffy mammal you probably never heard of.",
+      "link": "",
+      "thumbnail": ""
+    }, {
+      "id": 67,
+      "category": "4",
+      "name": "Saola",
+      "description": "Learn more about this rare ungulate, also known as the Asian unicorn.",
+      "link": "",
+      "thumbnail": ""
+    }, {
+      "id": 68,
+      "category": "4",
+      "name": "Olm",
+      "description": "Read about this rare aquatic salamander.",
+      "link": "",
+      "thumbnail": ""
+    }, {
+      "id": 69,
+      "category": "4",
+      "name": "Sea Bunny",
+      "description": "Find out what makes this tiny creature the cutest gastropod in the ocean.",
+      "link": "",
+      "thumbnail": ""
+    }, {
+      "id": 70,
+      "category": "2",
+      "name": "Snowflakitect",
+      "description": "Generate a random snowflake. Print the results to decorate for the holidays.",
+      "link": "",
+      "thumbnail": ""
+    }, {
+      "id": 71,
+      "category": "3",
+      "name": "Trip Taker",
+      "description": "Use this app to plan a fun vacation. Generate a random city, then generate a popular activity from that city to build an itinerary.",
+      "link": "",
+      "thumbnail": ""
+    }, {
+      "id": 72,
+      "category": "0",
+      "name": "Chroma",
+      "description": "Guess the hex code for a random colour. Closer guesses earn more points.",
+      "link": "",
+      "thumbnail": ""
+    }, {
+      "id": 73,
+      "category": "2",
+      "name": "Gradient Builder",
+      "description": "Use this tool to visualize custom colour gradients. CSS code matching the gradient will be generated automatically to copy and paste.",
+      "link": "",
+      "thumbnail": ""
+    }, {
+      "id": 74,
+      "category": "2",
+      "name": "Rug Roulette",
+      "description": "Creates random rug designs based on a selected colour palette.",
+      "link": "",
+      "thumbnail": ""
+    }, {
+      "id": 75,
+      "category": "3",
+      "name": "Meteorolomap",
+      "description": "A real time weather map of Canada.",
+      "link": "",
+      "thumbnail": ""
+    }, {
+      "id": 76,
+      "category": "1",
+      "name": "HTMLify",
+      "description": "Converts a markdown document to an HTML page.",
+      "link": "",
+      "thumbnail": ""
+    }, {
+      "id": 77,
+      "category": "1",
+      "name": "Measurmorphose",
+      "description": "A unit converter for switching between metric and imperial measurements.",
+      "link": "",
+      "thumbnail": ""
+    }, {
+      "id": 78,
+      "category": "0",
+      "name": "Block Drop",
+      "description": "A clone of a classic block dropping game.",
+      "link": "",
+      "thumbnail": ""
+    }, {
+      "id": 79,
+      "category": "1",
+      "name": "RegEx Wizard",
+      "description": "Create an test custom regular expressions.",
+      "link": "",
+      "thumbnail": ""
+    }, {
+      "id": 80,
+      "category": "3",
+      "name": "Map Tool Mimic",
+      "description": "A demonstration of how to make open source clones of proprietary map tools.",
+      "link": "",
+      "thumbnail": ""
+    }, {
+      "id": 81,
+      "category": "0",
+      "name": "Solvedoku",
+      "description": "A tool that solves sudoku puzzles.",
+      "link": "",
+      "thumbnail": ""
+    }, {
+      "id": 82,
+      "category": "1",
+      "name": "Password Maker",
+      "description": "Use this app to generate a strong password.",
+      "link": "",
+      "thumbnail": ""
+    }, {
+      "id": 83,
+      "category": "1",
+      "name": "XML2JSON",
+      "description": "Convert any XML files to JSON objects.",
+      "link": "",
+      "thumbnail": ""
+    }, {
+      "id": 84,
+      "category": "0",
+      "name": "Tile Twins",
+      "description": "Flip tiles to find the matching pairs.",
+      "link": "",
+      "thumbnail": ""
+    }, {
+      "id": 85,
+      "category": "1",
+      "name": "Speedy Keys",
+      "description": "Test how fast you can type.",
+      "link": "",
+      "thumbnail": ""
+    }, {
+      "id": 86,
+      "category": "1",
+      "name": "Musicbox",
+      "description": "A web-based music player.",
+      "link": "",
+      "thumbnail": ""
+    }, {
+      "id": 87,
+      "category": "1",
+      "name": "DataSketch",
+      "description": "Convert CSV data into custom charts and graphs.",
+      "link": "",
+      "thumbnail": ""
+    }, {
+      "id": 88,
+      "category": "0",
+      "name": "Tile Glider",
+      "description": "Slide tiles to unscramble an image.",
+      "link": "",
+      "thumbnail": ""
+    }, {
+      "id": 89,
+      "category": "1",
+      "name": "Cluster Finder",
+      "description": "Learn k-means clustering by visualizing your data.",
+      "link": "",
+      "thumbnail": ""
+    }, {
+      "id": 90,
+      "category": "0",
+      "name": "Infinity Runner",
+      "description": "Avoid obstacles in this infinate running game.",
+      "link": "",
+      "thumbnail": ""
+    }, {
+      "id": 91,
+      "category": "1",
+      "name": "PDF Cutter",
+      "description": "Merge or split PDF files.",
+      "link": "",
+      "thumbnail": ""
+    }, {
+      "id": 92,
+      "category": "0",
+      "name": "Klondike Quest",
+      "description": "Play solitare with a selection of fun deck designs.",
+      "link": "",
+      "thumbnail": ""
+    }, {
+      "id": 93,
+      "category": "3",
+      "name": "Cartoplotter",
+      "description": "Use this application to create a printable static map.",
+      "link": "",
+      "thumbnail": ""
+    }, {
+      "id": 94,
+      "category": "2",
+      "name": "BitMapster",
+      "description": "This image pixelator is perfect for creating patterns for crafting activities like beading, cross-stitch, gem painting, and more.",
+      "link": "",
+      "thumbnail": ""
+    }, {
+      "id": 95,
+      "category": "3",
+      "name": "Geoshader",
+      "description": "A tool to create a choropleth map layer.",
+      "link": "",
+      "thumbnail": ""
+    }, {
+      "id": 96,
+      "category": "0",
+      "name": "Flag Chaser",
+      "description": "Match each flag to a country outline on the map.",
+      "link": "",
+      "thumbnail": ""
+    }, {
+      "id": 97,
+      "category": "3",
+      "name": "Time Lines",
+      "description": "Use the time slider to see how country borders have changed over time.",
+      "link": "",
+      "thumbnail": ""
+    }, {
+      "id": 98,
+      "category": "0",
+      "name": "Geoshapes",
+      "description": "Guess the country based on its outline.",
+      "link": "",
+      "thumbnail": ""
+    }, {
+      "id": 99,
+      "category": "2",
+      "name": "Ancient Earth",
+      "description": "A painting of a prehistoric landscape. Acrylic on canvas.",
+      "link": "",
+      "thumbnail": ""
+    }
+  ]
+}
