@@ -23,9 +23,9 @@ function Ideas() {
     rose: "text-rose-100 border-rose-400 bg-rose-950/5 hover:bg-rose-700/15 hover:text-rose-50 hover:border-rose-50 hover:shadow-[0_0_20px_#ff7abd]",
     pink: "text-pink-100 border-pink-400 bg-pink-950/5 hover:bg-pink-700/15 hover:text-pink-50 hover:border-pink-50 hover:shadow-[0_0_20px_#ff33ee]",
     fuchsia:
-      "text-fuchsia-50 border-fuchsia-300 bg-fuchsia-950/5 hover:bg-fuchsia-700/15 hover:text-fuchsia-50 hover:border-fuchsia-50 hover:shadow-[0_0_20px_#c533ff]",
+      "text-fuchsia-50 border-fuchsia-400 bg-fuchsia-950/5 hover:bg-fuchsia-700/15 hover:text-fuchsia-50 hover:border-fuchsia-50 hover:shadow-[0_0_20px_#c533ff]",
     indigo:
-      "text-indigo-100 border-indigo-400 bg-indigo-950/5 hover:bg-indigo-700/15 hover:text-indigo-50 hover:border-indigo-50 hover:shadow-[0_0_20px_#775cff]",
+      "text-indigo-100 border-indigo-500 bg-indigo-950/5 hover:bg-indigo-700/15 hover:text-indigo-50 hover:border-indigo-50 hover:shadow-[0_0_20px_#775cff]",
     blue: "text-blue-100 border-blue-400 bg-blue-950/5 hover:bg-blue-700/15 hover:text-blue-50 hover:border-blue-50 hover:shadow-[0_0_20px_#06b0ee]",
     cyan: "text-cyan-100 border-cyan-400 bg-cyan-950/5 hover:bg-cyan-700/15 hover:text-cyan-50 hover:border-cyan-50 hover:shadow-[0_0_20px_#06d3ee]",
   };
@@ -39,6 +39,17 @@ function Ideas() {
       "text-indigo-50 border-indigo-50 bg-indigo-700/15 shadow-[0_0_20px_#775cff]",
     blue: "text-blue-50 border-blue-50 bg-blue-700/15 shadow-[0_0_20px_#06b0ee]",
     cyan: "text-cyan-50 border-cyan-50 bg-cyan-700/15 shadow-[0_0_20px_#06d3ee]",
+  };
+
+  const colorMapDrop: { [key: string]: string } = {
+    rose: "text-rose-100 border-rose-400 bg-rose-950/5 focus:text-rose-50 focus:border-rose-50 focus:shadow-[0_0_20px_#ff7abd]",
+    pink: "text-pink-100 border-pink-400 bg-pink-950/5 focus:text-pink-50 focus:border-pink-50 focus:shadow-[0_0_20px_#ff33ee]",
+    fuchsia:
+      "text-fuchsia-50 border-fuchsia-400 bg-fuchsia-950/5 focus:text-fuchsia-50 focus:border-fuchsia-50 focus:shadow-[0_0_20px_#c533ff]",
+    indigo:
+      "text-indigo-100 border-indigo-500 bg-indigo-950/5  focus:text-indigo-50 focus:border-indigo-50 focus:shadow-[0_0_20px_#775cff]",
+    blue: "text-blue-100 border-blue-400 bg-blue-950/5 focus:text-blue-50 focus:border-blue-50 focus:shadow-[0_0_20px_#06b0ee]",
+    cyan: "text-cyan-100 border-cyan-400 bg-cyan-950/5 focus:text-cyan-50 focus:border-cyan-50 focus:shadow-[0_0_20px_#06d3ee]",
   };
 
   const [searchTerm, setSearchTerm] = useState<string | null>("");
@@ -74,7 +85,41 @@ function Ideas() {
   return (
     <div className="text-neutral-50">
       {/*********************** FILTER BUTTONS ***********************/}
-      <div className="mb-4 w-full flex place-content-center gap-x-4">
+      <div className="lg:hidden w-[95%] md:w-[60%] mx-auto relative">
+        <select
+          value={activeCategory ?? "all"}
+          onChange={(e) =>
+            setActiveCategory(e.target.value === "all" ? null : e.target.value)
+          }
+          className={`appearance-none w-full px-4 py-3 bg-slate-950/80 border-3
+            rounded-lg text-3xl
+            ${
+              // TODO: Fix typescript issue here, i.e. remove "as keyof typeof catList"
+              activeCategory !== null
+                ? colorMapDrop[catList[activeCategory as keyof typeof catList].color]
+                : "focus:text-neutral-50 focus:shadow-[0_0_20px_#ffffff]"
+            }`}
+        >
+          <option value="all">All</option>
+          {Object.values(catList).map((cat) => (
+            <option key={cat.id} value={cat.id}>
+              {cat.name}
+            </option>
+          ))}
+        </select>
+        {/* Custom chevron */}
+        <svg
+          className="pointer-events-none absolute right-4 top-1/2 -translate-y-1/2
+            w-8 h-8 text-neutral-50"
+          viewBox="0 0 24 24"
+          fill="none"
+          stroke="currentColor"
+          strokeWidth="2.5"
+        >
+          <path d="M6 9l6 6 6-6" />
+        </svg>
+      </div>
+      <div className="hidden lg:flex mb-4 w-full place-content-center gap-x-4">
         {/* All Button */}
         <button
           className={`flex items-center gap-2 px-3 py-2 bg-neutral-900/10 border-2 rounded-lg hover:cursor-pointer
@@ -123,7 +168,7 @@ function Ideas() {
       <SearchBar setSearchTerm={setSearchTerm} />
 
       {/*********************** FILTER RESULT COUNTER ***********************/}
-      <div className="w-full mx-auto text-center text-3xl text-sky-50 mb-16">
+      <div className="w-full mx-auto text-center text-2xl md:text-3xl text-sky-50 mb-10 md:mb-16">
         Showing {numActive}/{ideaList.length} ideas
       </div>
 

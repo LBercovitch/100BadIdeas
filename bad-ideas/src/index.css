@@ -1,8 +1,8 @@
-@import url('https://fonts.googleapis.com/css2?family=Audiowide:wght@400;700;900&family=Aldrich&family=Electrolize&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700;900&family=Aldrich&family=Electrolize&display=swap');
 @import "tailwindcss";
 
 @theme {
-  --font-audiowide: "Audiowide", sans-serif;
+  --font-orbitron: "Orbitron", sans-serif;
   --font-electrolize: "Electrolize", sans-serif;
   --font-aldrich: "Aldrich", sans-serif;
 

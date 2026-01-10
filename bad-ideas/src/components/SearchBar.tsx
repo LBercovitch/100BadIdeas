@@ -6,7 +6,7 @@ type SearchBarProps = {
 
 function SearchBar({setSearchTerm}: SearchBarProps) {
   return (
-    <div className="w-[60%] mx-auto mt-10 mb-4 relative">
+    <div className="w-[95%] md:w-[60%] mx-auto mt-10 mb-4 relative">
       <div className="absolute left-3 top-1/2 -translate-y-1/2">
         <SearchIcon width="w-7" color="text-light-blue" />
       </div >
