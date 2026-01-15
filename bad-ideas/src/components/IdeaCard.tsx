@@ -33,10 +33,10 @@ function IdeaCard({ idea, categoryName, colorCSS }: IdeaCardProps) {
         {idea.category === "5" && <PlanetIcon width="w-6" />}
         {categoryName}
       </p>
+      <img src={idea.thumbnail} />
       <h2 className="text-2xl mb-2">{idea.name}</h2>
-      {/* {idea.thumbnail} */}
       <p className="font-electrolize">{idea.description}</p>
-      <p className="mt-10 hidden group-hover:block">
+      <p className="mt-10 md:hidden group-hover:block">
         {idea.link || "Coming soon..."}
       </p>
     </div>

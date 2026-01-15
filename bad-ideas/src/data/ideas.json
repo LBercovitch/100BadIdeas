@@ -6,28 +6,28 @@
       "name": "Tic Tac No!",
       "description": "A tic tac toe game you will never win.",
       "link": "",
-      "thumbnail": ""
+      "thumbnail": "/TicTacNo.png"
     }, {
       "id": 1,
       "category": "2",
       "name": "Meow Mixer",
       "description": "A random cat generator. Note: All cats are drawn by a hand, without the use of AI.",
       "link": "",
-      "thumbnail": ""
+      "thumbnail": "/MeowMixer.png"
     }, {
       "id": 2,
       "category": "5",
       "name": "Shadow on the Wire",
       "description": "Perched high above the city, a pigeon sees the truths humans hide in the shadows below. Read the short story here.",
       "link": "",
-      "thumbnail": ""
+      "thumbnail": "/ShadowOnTheWire.png"
     }, {
       "id": 3,
       "category": "3",
       "name": "Contour Creator",
       "description": "Generate contour lines based on a set of elevation points.",
       "link": "",
-      "thumbnail": ""
+      "thumbnail": "/ContourCreator.png"
     }, {
       "id": 4,
       "category": "1",

@@ -175,7 +175,7 @@ function Ideas() {
       {/*********************** IDEA CARDS ***********************/}
       <div className="max-w-7xl mx-auto pb-20">
         <ResponsiveMasonry>
-          <Masonry sequential="true">
+          <Masonry>
             {ideaList.map((idea) => {
               const shouldRender =
                 (activeCategory === null || idea.category === activeCategory) &&
