@@ -34,14 +34,14 @@
       "name": "PixelPad",
       "description": "A simple web based drawing tool.",
       "link": "",
-      "thumbnail": ""
+      "thumbnail": "/PixelPad.png"
     }, {
       "id": 5,
       "category": "4",
       "name": "Cosmic Clock",
       "description": "Enter your birthday to see how old you are on different planets.",
       "link": "",
-      "thumbnail": ""
+      "thumbnail": "/CosmicClock.png"
     }, {
       "id": 6,
       "category": "2",

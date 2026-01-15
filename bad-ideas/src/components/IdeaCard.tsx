@@ -24,7 +24,7 @@ function IdeaCard({ idea, categoryName, colorCSS }: IdeaCardProps) {
       key={idea.id}
       className={`group w-full pt-4 pb-14 px-5 m-2 border-6 rounded-lg hover:cursor-pointer ${colorCSS}`}
     >
-      <p className="flex gap-2 mb-10">
+      <p className="flex gap-2 mb-5">
         {idea.category === "0" && <ControllerIcon width="w-6" />}
         {idea.category === "1" && <WrenchIcon width="w-6" />}
         {idea.category === "2" && <PaletteIcon width="w-6" />}
