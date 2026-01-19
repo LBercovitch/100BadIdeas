@@ -15,7 +15,7 @@ function SearchBar({setSearchTerm}: SearchBarProps) {
         placeholder="Search ideas..."
         className="w-full pl-12 pr-4 py-3 bg-slate-950/80 border-3 border-light-blue
           rounded-lg text-3xl text-light-blue placeholder:text-neon-blue focus:outline-none focus:border-light-blue
-          focus:shadow-[0_0_20px_#06ccee]"
+          focus:shadow-[0_0_20px_oklch(77.85%_0.1373_215.55)]"
         onChange={(event) => setSearchTerm(event.target.value)}
       />
     </div>

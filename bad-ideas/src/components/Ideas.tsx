@@ -20,36 +20,36 @@ function Ideas() {
   const ideaList = ideas.ideas;
 
   const colorMap: { [key: string]: string } = {
-    rose: "text-rose-100 border-rose-400 bg-rose-950/5 hover:bg-rose-700/15 hover:text-rose-50 hover:border-rose-50 hover:shadow-[0_0_20px_#ff7abd]",
-    pink: "text-pink-100 border-pink-400 bg-pink-950/5 hover:bg-pink-700/15 hover:text-pink-50 hover:border-pink-50 hover:shadow-[0_0_20px_#ff33ee]",
+    rose: "text-rose-100 border-rose-400 bg-rose-950/5 hover:bg-rose-700/15 hover:text-rose-50 hover:border-rose-50 hover:shadow-[0_0_20px_oklch(75.28%_0.1766_350.71)]",
+    pink: "text-pink-100 border-pink-400 bg-pink-950/5 hover:bg-pink-700/15 hover:text-pink-50 hover:border-pink-50 hover:shadow-[0_0_20px_oklch(70.69%_0.2917_332.11)]",
     fuchsia:
-      "text-fuchsia-50 border-fuchsia-400 bg-fuchsia-950/5 hover:bg-fuchsia-700/15 hover:text-fuchsia-50 hover:border-fuchsia-50 hover:shadow-[0_0_20px_#c533ff]",
+      "text-fuchsia-50 border-fuchsia-400 bg-fuchsia-950/5 hover:bg-fuchsia-700/15 hover:text-fuchsia-50 hover:border-fuchsia-50 hover:shadow-[0_0_20px_oklch(63.6%_0.2826_313.56)]",
     indigo:
-      "text-indigo-100 border-indigo-500 bg-indigo-950/5 hover:bg-indigo-700/15 hover:text-indigo-50 hover:border-indigo-50 hover:shadow-[0_0_20px_#775cff]",
-    blue: "text-blue-100 border-blue-400 bg-blue-950/5 hover:bg-blue-700/15 hover:text-blue-50 hover:border-blue-50 hover:shadow-[0_0_20px_#06b0ee]",
-    cyan: "text-cyan-100 border-cyan-400 bg-cyan-950/5 hover:bg-cyan-700/15 hover:text-cyan-50 hover:border-cyan-50 hover:shadow-[0_0_20px_#06d3ee]",
+      "text-indigo-100 border-indigo-500 bg-indigo-950/5 hover:bg-indigo-700/15 hover:text-indigo-50 hover:border-indigo-50 hover:shadow-[0_0_20px_oklch(59.49%_0.2304_284.52)]",
+    blue: "text-blue-100 border-blue-400 bg-blue-950/5 hover:bg-blue-700/15 hover:text-blue-50 hover:border-blue-50 hover:shadow-[0_0_20px_oklch(71.24%_0.1463_232.97)]",
+    cyan: "text-cyan-100 border-cyan-400 bg-cyan-950/5 hover:bg-cyan-700/15 hover:text-cyan-50 hover:border-cyan-50 hover:shadow-[0_0_20px_oklch(79.52%_0.1375_211.03)]",
   };
 
   const colorMapActive: { [key: string]: string } = {
-    rose: "text-rose-50 border-rose-50 bg-rose-700/15 shadow-[0_0_20px_#ff7abd]",
-    pink: "text-pink-50 border-pink-50 bg-pink-700/15 shadow-[0_0_20px_#ff33ee]",
+    rose: "text-rose-50 border-rose-50 bg-rose-700/15 shadow-[0_0_20px_oklch(75.28%_0.1766_350.71)]",
+    pink: "text-pink-50 border-pink-50 bg-pink-700/15 shadow-[0_0_20px_oklch(70.69%_0.2917_332.11)]",
     fuchsia:
-      "text-fuchsia-50 border-fuchsia-50 bg-fuchsia-700/15 shadow-[0_0_20px_#c533ff]",
+      "text-fuchsia-50 border-fuchsia-50 bg-fuchsia-700/15 shadow-[0_0_20px_oklch(63.6%_0.2826_313.56)]",
     indigo:
-      "text-indigo-50 border-indigo-50 bg-indigo-700/15 shadow-[0_0_20px_#775cff]",
-    blue: "text-blue-50 border-blue-50 bg-blue-700/15 shadow-[0_0_20px_#06b0ee]",
-    cyan: "text-cyan-50 border-cyan-50 bg-cyan-700/15 shadow-[0_0_20px_#06d3ee]",
+      "text-indigo-50 border-indigo-50 bg-indigo-700/15 shadow-[0_0_20px_oklch(59.49%_0.2304_284.52)]",
+    blue: "text-blue-50 border-blue-50 bg-blue-700/15 shadow-[0_0_20px_oklch(71.24%_0.1463_232.97)]",
+    cyan: "text-cyan-50 border-cyan-50 bg-cyan-700/15 shadow-[0_0_20px_oklch(79.52%_0.1375_211.03)]",
   };
 
   const colorMapDrop: { [key: string]: string } = {
-    rose: "text-rose-100 border-rose-400 bg-rose-950/5 focus:text-rose-50 focus:border-rose-50 focus:shadow-[0_0_20px_#ff7abd]",
-    pink: "text-pink-100 border-pink-400 bg-pink-950/5 focus:text-pink-50 focus:border-pink-50 focus:shadow-[0_0_20px_#ff33ee]",
+    rose: "text-rose-100 border-rose-400 bg-rose-950/5 focus:text-rose-50 focus:border-rose-50 focus:shadow-[0_0_20px_oklch(75.28%_0.1766_350.71)]",
+    pink: "text-pink-100 border-pink-400 bg-pink-950/5 focus:text-pink-50 focus:border-pink-50 focus:shadow-[0_0_20px_oklch(70.69%_0.2917_332.11)]",
     fuchsia:
-      "text-fuchsia-50 border-fuchsia-400 bg-fuchsia-950/5 focus:text-fuchsia-50 focus:border-fuchsia-50 focus:shadow-[0_0_20px_#c533ff]",
+      "text-fuchsia-50 border-fuchsia-400 bg-fuchsia-950/5 focus:text-fuchsia-50 focus:border-fuchsia-50 focus:shadow-[0_0_20px_oklch(63.6%_0.2826_313.56)]",
     indigo:
-      "text-indigo-100 border-indigo-500 bg-indigo-950/5  focus:text-indigo-50 focus:border-indigo-50 focus:shadow-[0_0_20px_#775cff]",
-    blue: "text-blue-100 border-blue-400 bg-blue-950/5 focus:text-blue-50 focus:border-blue-50 focus:shadow-[0_0_20px_#06b0ee]",
-    cyan: "text-cyan-100 border-cyan-400 bg-cyan-950/5 focus:text-cyan-50 focus:border-cyan-50 focus:shadow-[0_0_20px_#06d3ee]",
+      "text-indigo-100 border-indigo-500 bg-indigo-950/5  focus:text-indigo-50 focus:border-indigo-50 focus:shadow-[0_0_20px_oklch(59.49%_0.2304_284.52)]",
+    blue: "text-blue-100 border-blue-400 bg-blue-950/5 focus:text-blue-50 focus:border-blue-50 focus:shadow-[0_0_20px_oklch(71.24%_0.1463_232.97)]",
+    cyan: "text-cyan-100 border-cyan-400 bg-cyan-950/5 focus:text-cyan-50 focus:border-cyan-50 focus:shadow-[0_0_20px_oklch(79.52%_0.1375_211.03)]",
   };
 
   const [searchTerm, setSearchTerm] = useState<string | null>("");
@@ -97,7 +97,7 @@ function Ideas() {
               // TODO: Fix typescript issue here, i.e. remove "as keyof typeof catList"
               activeCategory !== null
                 ? colorMapDrop[catList[activeCategory as keyof typeof catList].color]
-                : "focus:text-neutral-50 focus:shadow-[0_0_20px_#ffffff]"
+                : "focus:text-neutral-50 focus:shadow-[0_0_20px_oklch(100%_0_0)]"
             }`}
         >
           <option value="all">All</option>
@@ -123,10 +123,10 @@ function Ideas() {
         {/* All Button */}
         <button
           className={`flex items-center gap-2 px-3 py-2 bg-neutral-900/10 border-2 rounded-lg hover:cursor-pointer
-            hover:text-neutral-50 hover:outline-none hover:border-neutral-50 hover:shadow-[0_0_20px_#ffffff]
+            hover:text-neutral-50 hover:outline-none hover:border-neutral-50 hover:shadow-[0_0_20px_oklch(100%_0_0)]
             ${
               activeCategory === null
-                ? "text-neutral-50 outline-none border-neutral-50 shadow-[0_0_20px_#ffffff]"
+                ? "text-neutral-50 outline-none border-neutral-50 shadow-[0_0_20px_oklch(100%_0_0)]"
                 : "text-neutral-100 border-neutral-300"
             }
           `}

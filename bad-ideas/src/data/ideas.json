@@ -48,14 +48,14 @@
       "name": "Shadow on the Wire (book cover)",
       "description": "A book cover for 'Shadow on the Wire'.",
       "link": "",
-      "thumbnail": ""
+      "thumbnail": "/ShadowOnTheWireCover.png"
     }, {
       "id": 7,
       "category": "1",
       "name": "Hue Harvester",
       "description": "A color picker that lets you explore over 16 million colors and instantly view their digital values in RGB, HEX, CMYK, or HSV.",
       "link": "",
-      "thumbnail": ""
+      "thumbnail": "/HueHarvester.png"
     }, {
       "id": 8,
       "category": "2",

@@ -6,31 +6,31 @@
   --font-electrolize: "Electrolize", sans-serif;
   --font-aldrich: "Aldrich", sans-serif;
 
-  --color-neon-blue: #06b6d4;
-  --color-neon-pink: #ec4899;
-  --color-medium-navy: #011052;
-  --color-dark-navy: #00002d;
-  --color-darkest-purple: #060010;
-  --color-black: #000000;
-  --color-light-pink: #ffc4ee;
-  --color-light-orange: #ffce80;
-  --color-light-yellow: #fff6a8;
-  --color-light-green: #b0ff3b;
-  --color-light-blue: #bbeeff;
-  --color-light-purple: #c891ff;
+  --color-neon-blue: oklch(71.48% 0.1257 215.22);
+  --color-neon-pink: oklch(65.59% 0.2118 354.31);
+  --color-medium-navy: oklch(22.41% 0.1201 264.17);
+  --color-dark-navy: oklch(13.43% 0.0931 264.05);
+  --color-darkest-purple: oklch(9.84% 0.0514 304.05);
+  --color-black: oklch(0% 0 0);
+  --color-light-pink: oklch(88.54% 0.0859 337.07);
+  --color-light-orange: oklch(87.79% 0.1109 78.17);
+  --color-light-yellow: oklch(96.26% 0.098 102.43);
+  --color-light-green: oklch(91.53% 0.227 129.83);
+  --color-light-blue: oklch(91.93% 0.057 220.23);
+  --color-light-purple: oklch(75.2% 0.1619 305.92);
 
   --text-shadow-blue-h1:
-    0 0 10px #ffffff,
-    0 0 30px #06ccee,
-    0 0 40px #06b6d4,
-    0 0 90px #077285
+    0 0 10px oklch(100% 0 0),
+    0 0 30px oklch(77.85% 0.1373 215.55),
+    0 0 40px oklch(71.48% 0.1257 215.22),
+    0 0 90px oklch(50.86% 0.0882 214.88)
   ;
 
   --text-shadow-pink-h1:
-    0 0 5px #ffffff,
-    0 0 30px #ffc4ee,
-    0 0 40px #ec4899,
-    0 0 90px #9e2f66
+    0 0 5px oklch(100% 0 0),
+    0 0 30px oklch(88.54% 0.0859 337.07),
+    0 0 40px oklch(65.59% 0.2118 354.31),
+    0 0 90px oklch(48.86% 0.1552 353.98)
   ;
 }
 
